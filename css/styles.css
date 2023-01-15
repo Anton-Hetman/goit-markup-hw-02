@@ -14,29 +14,22 @@
 }
 body {
   font-family: var(--font-primary);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  /* letter-spacing: 0.02em; */
   color: var(--color-secondary);
 }
 /*-----------------HEADER----------------- */
-.header-nav {
-}
 .logo {
-  width: 115px;
-  height: 24px;
   font-family: var(--font-secondary);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--color-iris);
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .header-logo {
   color: var(--color-primary);
-}
-.header-list {
 }
 .list {
   list-style: none;
@@ -44,6 +37,12 @@ body {
 .header-link {
   font-weight: 500;
   color: var(--color-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.current {
+  color: var(--color-iris);
 }
 .link {
   text-decoration: none;
@@ -52,31 +51,30 @@ body {
 .link:focus {
   color: var(--color-ocean);
 }
-.header-contacts {
-}
 .header-contact {
   font-weight: 400;
   color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*-----------------MAIN----------------- */
-.main {
-}
 .hero-section {
-  width: 1440px;
-  height: 600px;
   background-color: var(--color-primary);
 }
 .hero-title {
   width: 494px;
-  height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.071;
   color: var(--color-light);
+  letter-spacing: 0.02em;
 }
-.title {
-}
-/* ------------HERO--------------- */
 .hero-button {
   width: 169px;
   height: 56px;
@@ -86,32 +84,33 @@ body {
   cursor: pointer;
   color: var(--color-light);
   font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--color-ocean);
 }
-.button {
-}
-.advantages-section {
-}
-.advantages-list {
-}
-.list {
-}
-.advantages-item {
-}
-.item {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-title {
-  width: 264px;
-  height: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-primary);
-}
-.work-section {
+  letter-spacing: 0.02em;
 }
 .work-title {
   width: 323px;
@@ -120,10 +119,7 @@ body {
   font-size: 36px;
   line-height: 1.111;
   color: var(--color-primary);
-}
-.work-list {
-}
-.work-item {
+  letter-spacing: 0.02em;
 }
 .team-section {
   background-color: var(--color-invert);
@@ -135,45 +131,28 @@ body {
   font-size: 36px;
   line-height: 1.111;
   color: var(--color-primary);
-}
-.team-list {
-}
-.team-item {
+  letter-spacing: 0.02em;
 }
 .team-person {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-primary);
+  letter-spacing: 0.02em;
 }
 /*-----------------FOOTER----------------- */
 .footer {
-  width: 1440px;
-  height: 310px;
   background-color: var(--color-primary);
-}
-.logo {
 }
 .footer-logo {
   color: var(--color-invert);
 }
 .footer-text {
   width: 264px;
-  height: 72px;
   color: var(--color-accent);
 }
 /* ----------------STUDIO------------------- */
 /* ---------------PORTFOLIO----------------- */
-.filter-section {
-}
-.filter-list {
-}
-.list {
-}
-.filter-item {
-}
-.item {
-}
 .filter-button {
   border-radius: 4px;
   height: 48px;
@@ -182,6 +161,7 @@ body {
   background-color: var(--color-invert);
   font-weight: 500;
   color: var(--color-iris);
+  letter-spacing: 0.04em;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -190,8 +170,6 @@ body {
 }
 .filter-button-one {
   width: 69px;
-}
-.button {
 }
 .filter-button-two {
   width: 116px;
@@ -205,13 +183,10 @@ body {
 .filter-button-five {
   width: 126px;
 }
-.works-list {
-}
-.works-item {
-}
 .works-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-primary);
+  letter-spacing: 0.02em;
 }
