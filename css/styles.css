@@ -1,0 +1,217 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-primary: #2e2f42;
+  --color-secondary: #434455;
+  --color-light: #ffffff;
+  --color-invert: #f4f4fd;
+  --color-accent: #e7e9fc;
+  --color-ocean: #404bbf;
+  --color-success: #31d0aa;
+  --color-helper-text: #8e8f99;
+  /*-----------------FONT-FAMILY----------------- */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+}
+body {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-secondary);
+}
+/*-----------------HEADER----------------- */
+.header-nav {
+}
+.logo {
+  width: 115px;
+  height: 24px;
+  font-family: var(--font-secondary);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--color-iris);
+  text-decoration: none;
+}
+.header-logo {
+  color: var(--color-primary);
+}
+.header-list {
+}
+.list {
+  list-style: none;
+}
+.header-link {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--color-ocean);
+}
+.header-contacts {
+}
+.header-contact {
+  font-weight: 400;
+  color: var(--color-secondary);
+}
+/*-----------------MAIN----------------- */
+.main {
+}
+.hero-section {
+  width: 1440px;
+  height: 600px;
+  background-color: var(--color-primary);
+}
+.hero-title {
+  width: 494px;
+  height: 120px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+  color: var(--color-light);
+}
+.title {
+}
+/* ------------HERO--------------- */
+.hero-button {
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--color-iris);
+  cursor: pointer;
+  color: var(--color-light);
+  font-weight: 500;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
+}
+.button {
+}
+.advantages-section {
+}
+.advantages-list {
+}
+.list {
+}
+.advantages-item {
+}
+.item {
+}
+.advantages-title {
+  width: 264px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-primary);
+}
+.work-section {
+}
+.work-title {
+  width: 323px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  color: var(--color-primary);
+}
+.work-list {
+}
+.work-item {
+}
+.team-section {
+  background-color: var(--color-invert);
+}
+.team-title {
+  width: 162px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  color: var(--color-primary);
+}
+.team-list {
+}
+.team-item {
+}
+.team-person {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-primary);
+}
+/*-----------------FOOTER----------------- */
+.footer {
+  width: 1440px;
+  height: 310px;
+  background-color: var(--color-primary);
+}
+.logo {
+}
+.footer-logo {
+  color: var(--color-invert);
+}
+.footer-text {
+  width: 264px;
+  height: 72px;
+  color: var(--color-accent);
+}
+/* ----------------STUDIO------------------- */
+/* ---------------PORTFOLIO----------------- */
+.filter-section {
+}
+.filter-list {
+}
+.list {
+}
+.filter-item {
+}
+.item {
+}
+.filter-button {
+  border-radius: 4px;
+  height: 48px;
+  border: var(--color-accent);
+  cursor: pointer;
+  background-color: var(--color-invert);
+  font-weight: 500;
+  color: var(--color-iris);
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-light);
+}
+.filter-button-one {
+  width: 69px;
+}
+.button {
+}
+.filter-button-two {
+  width: 116px;
+}
+.filter-button-three {
+  width: 78px;
+}
+.filter-button-four {
+  width: 101px;
+}
+.filter-button-five {
+  width: 126px;
+}
+.works-list {
+}
+.works-item {
+}
+.works-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-primary);
+}
