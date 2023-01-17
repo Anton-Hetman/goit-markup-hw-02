@@ -14,7 +14,6 @@
 }
 body {
   font-family: var(--font-primary);
-  /* letter-spacing: 0.02em; */
   color: var(--color-secondary);
 }
 /*-----------------HEADER----------------- */
@@ -68,12 +67,15 @@ body {
   background-color: var(--color-primary);
 }
 .hero-title {
-  width: 494px;
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.071;
   color: var(--color-light);
   letter-spacing: 0.02em;
+}
+.button {
+  font-family: inherit;
 }
 .hero-button {
   width: 169px;
@@ -84,7 +86,6 @@ body {
   cursor: pointer;
   color: var(--color-light);
   font-weight: 500;
-  font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -125,8 +126,6 @@ body {
   background-color: var(--color-invert);
 }
 .team-title {
-  width: 162px;
-  height: 40px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
@@ -155,11 +154,12 @@ body {
 /* ---------------PORTFOLIO----------------- */
 .filter-button {
   border-radius: 4px;
-  height: 48px;
   border: var(--color-accent);
   cursor: pointer;
   background-color: var(--color-invert);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--color-iris);
   letter-spacing: 0.04em;
 }
@@ -167,21 +167,6 @@ body {
 .filter-button:focus {
   background-color: var(--color-ocean);
   color: var(--color-light);
-}
-.filter-button-one {
-  width: 69px;
-}
-.filter-button-two {
-  width: 116px;
-}
-.filter-button-three {
-  width: 78px;
-}
-.filter-button-four {
-  width: 101px;
-}
-.filter-button-five {
-  width: 126px;
 }
 .works-title {
   font-weight: 500;
